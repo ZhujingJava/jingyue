@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" filepath="$PROJECT_DIR$/dubbo-consumer/dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" filepath="$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-service/dubbo-service.iml" filepath="$PROJECT_DIR$/dubbo-service/dubbo-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue.iml" filepath="$PROJECT_DIR$/jingyue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue-admin/jingyue-admin.iml" filepath="$PROJECT_DIR$/jingyue-admin/jingyue-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue-common/jingyue-common.iml" filepath="$PROJECT_DIR$/jingyue-common/jingyue-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue-gen/jingyue-gen.iml" filepath="$PROJECT_DIR$/jingyue-gen/jingyue-gen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jingyue-system/jingyue-system.iml" filepath="$PROJECT_DIR$/jingyue-system/jingyue-system.iml" />
+    </modules>
+  </component>
+</project>

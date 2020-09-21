@@ -1,0 +1,44 @@
+POST http://localhost:8080/login?loginName=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8080/login?loginName=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8080/login?loginName=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-16T120316.200.html
+
+###
+
+POST http://localhost:8080/login?loginName=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-16T120039.200.html
+
+###
+
+POST http://localhost:8080/login?loginName=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-15T115859.200.html
+
+###
+
+POST http://localhost:8080/login?loginName=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-09-15T115614.200.html
+
+###
+

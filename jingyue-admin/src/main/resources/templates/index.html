@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="${ctxPath}/plugins/jquery/jquery.min.js"></script>
+
+    <title>Title</title>
+</head>
+<body>
+
+<!--#for (menu in menus.childList){-->
+<div class="">
+    <table>
+
+
+        <!--# if(menu.childList.~size>=0) {-->
+        <!--#for(menu1 in menu.childList){-->
+        <tr>
+            <td>===========菜单名：${menu1.sysMenu.menuName}======  用户链接：<a href="${ctxPath}${menu1.sysMenu.url}">${ctxPath}${menu1.sysMenu.url}.do</a>   =====  用户权限  ${menu1.sysMenu.perms}
+                <!--#if(menu1.childList.~size>=0){-->
+                <!--#for(menu2 in menu1.childList){-->
+        <tr>
+            <td>
+            功能点：    ${menu2.sysMenu.menuName}====  用户链接：${menu2.sysMenu.url}  用户权限====${menu2.sysMenu.perms}
+            </td>
+        </tr>
+        <!--#}-->
+        <!--#}-->
+        </td>
+        </tr>
+
+        <!--#}-->
+        <!--#}-->
+    </table>
+</div>
+<!--#}-->
+index
+</body>
+</html>
+
+<script type="text/javascript">
+
+
+</script>

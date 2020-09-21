@@ -1,0 +1,102 @@
+package ${package.Controller};
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import java.lang.Integer;
+<% if(restControllerStyle){ %>
+import org.springframework.web.bind.annotation.RestController;
+<% }else{ %>
+import org.springframework.stereotype.Controller;
+<% } %>
+<% if(isNotEmpty(superControllerClassPackage)){ %>
+import ${superControllerClassPackage};
+<% } %>
+
+/**
+ * <p>
+ * ${table.comment!} 前端控制器
+ * </p>
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+<% if(restControllerStyle){ %>
+@RestController
+<% }else{ %>
+@Controller
+<% } %>
+@RequestMapping("<% if(isNotEmpty(package.ModuleName)){ %>/${package.ModuleName}<% } %>/<% if(isNotEmpty(controllerMappingHyphenStyle)){ %>${controllerMappingHyphen}<% }else{ %>${table.entityPath}<% } %>")
+<% if(kotlin){ %>
+class ${table.controllerName}<% if(isNotEmpty(superControllerClass)){ %> : ${superControllerClass}()<% } %>
+<% }else{ %>
+    <% if(isNotEmpty(superControllerClass)){ %>
+public class ${table.controllerName} extends ${superControllerClass} {
+  <%if(restControllerStyle){    %>
+  <%}else{
+  var temp=table.serviceImplName;
+  var length=strutil.length(temp);
+  var temp1=strutil.subStringTo(temp,1,length);
+  var temp2=strutil.toLowerCase(strutil.subStringTo(temp,0,1));
+  var sName=temp2+temp1;
+  //var sName = strutil.replace (table.serviceImplName,"Impl","");
+  %>
+
+  @Autowired
+   ${temp}  ${sName};
+  /*非rest模式为以下代码*/
+  private static final String PREFIX="${table.entityPath}";
+  @RequestMapping("/index")
+  public ModelAndView index(){
+
+  return new ModelAndView(PREFIX+"/index.html");
+  }
+
+  @PostMapping("/add")
+  @ResponseBody
+  public JsonResult add(${entity}  ${table.entityPath} ){
+
+   return JsonResult.success();
+  }
+
+   @PostMapping("/update")
+    @ResponseBody
+    public JsonResult update(${entity}  ${table.entityPath} ){
+
+     return JsonResult.success();
+    }
+/*
+     @PostMapping("/delete")
+      @ResponseBody
+      public JsonResult delete(${entity}  ${table.entityPath} ){
+       return JsonResult.success();
+      }
+    */
+
+
+       @PostMapping("/delete/{id}")
+          @ResponseBody
+          public JsonResult deleteById(@PathVariable Integer id ){
+           ${sName}.removeById(id);
+           return JsonResult.success();
+          }
+   @PostMapping("/select/{id}")
+         @ResponseBody
+         public JsonResult selectById(@PathVariable Integer id ){
+      QueryWrapper<${entity}> queryWrapper=new QueryWrapper<>();
+                 QueryWrapper<${entity}> wrapper= queryWrapper.eq("id", id);
+      List< ${entity}> list=${sName}.list(wrapper);
+
+          return JsonResult.success(list);
+         }
+
+  <%}%>
+
+    <% }else{ %>
+public class ${table.controllerName} {
+
+}
+    <% } %>
+
+}
+<% } %>

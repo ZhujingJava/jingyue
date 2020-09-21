@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zj.jingyuesystem.sys.mapper.SysMenuMapper">
+
+    <resultMap id="sysMenu" type="com.zj.jingyuesystem.sys.entity.SysMenu">
+    </resultMap>
+
+    <select id="selectMenusById" resultMap="sysMenu">
+       select a.* from  sys_menu a left join sys_role_menu b on a.menu_id=b.menu_id
+        left join sys_user_role c on c.role_id=b.role_id  where  c.user_id= #{userId}
+    </select>
+
+</mapper>

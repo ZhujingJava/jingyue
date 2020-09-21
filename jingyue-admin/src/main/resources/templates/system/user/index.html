@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script  type="text/javascript" src="${ctxPath}/plugins/jquery/jquery.min.js"></script>
+
+</head>
+<body>
+${list!"sss"}
+
+</body>
+</html>
+<script>
+
+    $(document).ready(function () {
+      var list=null;
+        $.ajax({
+            type:"POST",
+            url:"${ctxPath}"+"/system/user",
+            dataType:"JSON",
+            success:function (data) {
+                var code1=data.code;
+
+                 list=data.data;
+                console.log(list)
+            }
+
+        })
+    })
+</script>
