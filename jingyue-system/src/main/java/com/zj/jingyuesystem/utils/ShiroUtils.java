@@ -13,7 +13,7 @@ import java.util.List;
 public class ShiroUtils {
 
     public static SysShiroUser getShiroUser(){
-        return (SysShiroUser) SecurityUtils.getSubject().getPrincipals().getPrimaryPrincipal();
+        return (SysShiroUser) SecurityUtils.getSubject().getPrincipal();
     }
     public  static SysShiroUser  mergeUser(SysUser sysUser, Long roleId, List<SysMenu> menus){
         SysShiroUser shiroUser=new SysShiroUser();

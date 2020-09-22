@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e09707f-ea61-485e-99e1-c2778b5d0dce" name="Default Changelist" comment="" />
+    <list default="true" id="4e09707f-ea61-485e-99e1-c2778b5d0dce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jingyue-admin/src/main/java/com/zj/sys/web/controller/ShiroContextHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jingyue-admin/src/main/java/com/zj/JingyueAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jingyue-admin/src/main/java/com/zj/JingyueAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jingyue-admin/src/main/java/com/zj/annotation/AspectLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/jingyue-admin/src/main/java/com/zj/annotation/AspectLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jingyue-admin/src/main/java/com/zj/sys/web/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jingyue-admin/src/main/java/com/zj/sys/web/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jingyue-admin/src/main/java/com/zj/sys/web/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jingyue-admin/src/main/java/com/zj/sys/web/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jingyue-system/src/main/java/com/zj/jingyuesystem/config/MyRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/jingyue-system/src/main/java/com/zj/jingyuesystem/config/MyRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jingyue-system/src/main/java/com/zj/jingyuesystem/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jingyue-system/src/main/java/com/zj/jingyuesystem/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jingyue-system/src/main/java/com/zj/jingyuesystem/utils/MenuTreeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/jingyue-system/src/main/java/com/zj/jingyuesystem/utils/MenuTreeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jingyue-system/src/main/java/com/zj/jingyuesystem/utils/ShiroUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/jingyue-system/src/main/java/com/zj/jingyuesystem/utils/ShiroUtils.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,11 +51,39 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="fenzhi" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="fenzhi1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response3.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -83,24 +122,25 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Download\jingyue\jingyue-admin\src\main\resources\templates\system\user" />
+      <recent name="D:\Download\jingyue\jingyue-system\src\main\resources\config" />
+      <recent name="D:\Download\jingyue\jingyue-admin\src\main\java\com\zj\jingyueadmin" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zj.jingyueadmin" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zj.sys.web.controller" />
+      <recent name="com.zj.jingyuesystem.utils" />
+      <recent name="com.zj.jingyuesystem.sys.entity" />
+      <recent name="com.zj.jingyuecommon.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Download\jingyue\jingyue-admin\src\main\resources\static\system\user" />
       <recent name="D:\Download\jingyue\jingyue-admin\src\main\resources\static" />
       <recent name="D:\Download\jingyue\demo\src\main\resources\static" />
       <recent name="D:\Download\jingyue\jingyue-admin\src\main\resources" />
-      <recent name="D:\Download\jingyue\jingyue-admin\src\main\java\com\zj\jingyueadmin" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zj.jingyuesystem.utils" />
-      <recent name="com.zj.jingyuesystem.sys.entity" />
-      <recent name="com.zj.jingyuecommon.util" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Download\jingyue\jingyue-admin\src\main\resources\templates\system\user" />
-      <recent name="D:\Download\jingyue\jingyue-system\src\main\resources\config" />
       <recent name="D:\Download\jingyue\jingyue-admin\src\main\java\com\zj\jingyueadmin" />
     </key>
   </component>
@@ -291,11 +331,11 @@
       <item itemvalue="JUnit.JingyueAdminApplicationTests.contextLoads" />
       <item itemvalue="JUnit.JingyueAdminApplicationTests.testLogin" />
       <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="Spring Boot.JingyueAdminApplication" />
       <item itemvalue="Spring Boot.DubboServiceApplication" />
       <item itemvalue="Spring Boot.DubboProviderApplication" />
       <item itemvalue="Spring Boot.DubboConsumerApplication" />
       <item itemvalue="Spring Boot.JingyueServiceApplication" />
+      <item itemvalue="Spring Boot.JingyueAdminApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -303,6 +343,7 @@
         <item itemvalue="JUnit.JingyueAdminApplicationTests.testLogin" />
         <item itemvalue="JUnit.JingyueAdminApplicationTests.contextLoads" />
         <item itemvalue="Application.CodeGenerator" />
+        <item itemvalue="Spring Boot.JingyueAdminApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -310,17 +351,12 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.18130991" />
+          <option name="contentProportion" value="0.21523179" />
           <treeState>
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -343,7 +379,9 @@
       <option name="presentableId" value="Default" />
       <updated>1599129747000</updated>
       <workItem from="1599129752171" duration="71351000" />
-      <workItem from="1600268784068" duration="51811000" />
+      <workItem from="1600268784068" duration="52690000" />
+      <workItem from="1600697124441" duration="5541000" />
+      <workItem from="1600771024348" duration="1613000" />
     </task>
     <task id="LOCAL-00001" summary="代码自动生成mvc框架，自行修改的内容较少，后续慢慢优化">
       <created>1599150964649</created>
@@ -406,10 +444,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="385" y="176" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1280.680@0.0.1280.680" timestamp="1600595179013" />
-    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1600691623061">
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1600703140294">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1600691623061" />
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1600703140294" />
     <state x="371" y="116" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1599405247920">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -442,54 +480,54 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="506" y="234" width="269" height="290" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1600695883344" />
-    <state width="594" height="156" key="GridCell.Tab.0.bottom" timestamp="1600695946413">
+    <state width="947" height="156" key="GridCell.Tab.0.bottom" timestamp="1600703625259">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="594" height="156" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600695946413" />
-    <state width="594" height="156" key="GridCell.Tab.0.center" timestamp="1600695946413">
+    <state width="947" height="156" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600703625259" />
+    <state width="947" height="156" key="GridCell.Tab.0.center" timestamp="1600703625259">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="594" height="156" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600695946413" />
-    <state width="594" height="156" key="GridCell.Tab.0.left" timestamp="1600695946412">
+    <state width="947" height="156" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600703625259" />
+    <state width="947" height="156" key="GridCell.Tab.0.left" timestamp="1600703625259">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="594" height="156" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600695946412" />
-    <state width="594" height="156" key="GridCell.Tab.0.right" timestamp="1600695946413">
+    <state width="947" height="156" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600703625259" />
+    <state width="947" height="156" key="GridCell.Tab.0.right" timestamp="1600703625259">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="594" height="156" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600695946413" />
-    <state width="594" height="156" key="GridCell.Tab.1.bottom" timestamp="1600695946413">
+    <state width="947" height="156" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600703625259" />
+    <state width="947" height="156" key="GridCell.Tab.1.bottom" timestamp="1600703625260">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="594" height="156" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600695946413" />
-    <state width="594" height="156" key="GridCell.Tab.1.center" timestamp="1600695946413">
+    <state width="947" height="156" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600703625260" />
+    <state width="947" height="156" key="GridCell.Tab.1.center" timestamp="1600703625260">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="594" height="156" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1600695946413" />
-    <state width="594" height="156" key="GridCell.Tab.1.left" timestamp="1600695946413">
+    <state width="947" height="156" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1600703625260" />
+    <state width="947" height="156" key="GridCell.Tab.1.left" timestamp="1600703625259">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="594" height="156" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1600695946413" />
-    <state width="594" height="156" key="GridCell.Tab.1.right" timestamp="1600695946413">
+    <state width="947" height="156" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1600703625259" />
+    <state width="947" height="156" key="GridCell.Tab.1.right" timestamp="1600703625260">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="594" height="156" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1600695946413" />
-    <state width="988" height="156" key="GridCell.Tab.2.bottom" timestamp="1600606781637">
+    <state width="947" height="156" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1600703625260" />
+    <state width="988" height="156" key="GridCell.Tab.2.bottom" timestamp="1600699164207">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="988" height="156" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600606781637" />
-    <state width="988" height="156" key="GridCell.Tab.2.center" timestamp="1600606781637">
+    <state width="988" height="156" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600699164207" />
+    <state width="988" height="156" key="GridCell.Tab.2.center" timestamp="1600699164207">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="988" height="156" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1600606781637" />
-    <state width="988" height="156" key="GridCell.Tab.2.left" timestamp="1600606781637">
+    <state width="988" height="156" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1600699164207" />
+    <state width="988" height="156" key="GridCell.Tab.2.left" timestamp="1600699164207">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="988" height="156" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1600606781637" />
-    <state width="988" height="156" key="GridCell.Tab.2.right" timestamp="1600606781637">
+    <state width="988" height="156" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1600699164207" />
+    <state width="988" height="156" key="GridCell.Tab.2.right" timestamp="1600699164207">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="988" height="156" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1600606781637" />
+    <state width="988" height="156" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1600699164207" />
     <state x="384" y="51" key="RollbackChangesDialog" timestamp="1599151176066">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -506,10 +544,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="647" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1599138277242" />
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1600269254459">
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1600771038190">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1600269254459" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1600771038190" />
     <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600695922897">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -526,10 +564,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1600517370406" />
-    <state x="303" y="1" width="672" height="676" key="search.everywhere.popup" timestamp="1600695608260">
+    <state x="303" y="1" width="672" height="676" key="search.everywhere.popup" timestamp="1600774906587">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="676" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1600695608260" />
+    <state x="303" y="1" width="672" height="676" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1600774906587" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -555,11 +593,6 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/jingyue-admin/src/main/java/com/zj/sys/web/controller/SysUserController.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/jingyue-system/src/main/java/com/zj/jingyuesystem/config/MyRealm.java</url>
           <line>67</line>
           <option name="timeStamp" value="17" />
@@ -568,6 +601,11 @@
           <url>file://$PROJECT_DIR$/jingyue-system/src/main/java/com/zj/jingyuesystem/config/MyRealm.java</url>
           <line>36</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jingyue-admin/src/main/java/com/zj/sys/web/controller/SysUserController.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

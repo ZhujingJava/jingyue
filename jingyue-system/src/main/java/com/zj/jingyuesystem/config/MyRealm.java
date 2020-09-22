@@ -71,7 +71,7 @@ public class MyRealm extends AuthorizingRealm {
         if (maxRoleId != null) {
             menus = iSysMenuService.selectMenusById(maxRoleId);
         }
-        SysShiroUser shiroUser = ShiroUtils.mergeUser(user, maxRoleId, menus);
+        SysShiroUser shiroUser = ShiroUtils.mergeUser(user, maxRoleId, null);
         SimpleAuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo(shiroUser, password, getName());
         System.out.println("==============认证账户===");
         return authenticationInfo;

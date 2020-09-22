@@ -5,7 +5,6 @@ import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.zj.base.BaseController;
 import com.zj.jingyuecommon.util.JsonResult;
 import com.zj.jingyuesystem.annotation.Logger;
-import com.zj.jingyuesystem.sys.entity.SysMenu;
 import com.zj.jingyuesystem.sys.entity.SysShiroUser;
 import com.zj.jingyuesystem.sys.entity.SysUser;
 import com.zj.jingyuesystem.sys.service.ISysUserService;
@@ -45,19 +44,9 @@ public class SysUserController extends BaseController {
     @Logger("进入system/user首页")
     public ModelAndView index() {
         SysShiroUser shiroUser = ShiroUtils.getShiroUser();
-        List<SysMenu> menus = shiroUser.getMenus();
-        for (SysMenu menu : menus) {
-            System.out.println(menu.getPerms());
-        }
+
         return new ModelAndView(PREFIX + "/index.html");
 
-    }
-
-    @ResponseBody
-    @Logger("进入system/user首页")
-    public String index1() {
-        System.out.println("进入首页system/user");
-        return "success";
     }
 
     @PostMapping("/system/user")
@@ -67,7 +56,6 @@ public class SysUserController extends BaseController {
     public JsonResult indexResult() {
         List<SysUser> userList = sysUserService.list();
         return JsonResult.success(userList);
-
     }
 
 

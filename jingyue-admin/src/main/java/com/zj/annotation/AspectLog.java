@@ -20,7 +20,7 @@ public class AspectLog {
 
     }
     @Around(value ="execution(* com.zj.sys.web..*.*(..))")
-    public Object aspectLog(ProceedingJoinPoint point){
+    public Object aspectLog(ProceedingJoinPoint point) throws Throwable {
         MethodSignature signature = (MethodSignature) point.getSignature();
         Method method = signature.getMethod();
         String methodName = signature.getName();
@@ -45,12 +45,9 @@ public class AspectLog {
 
 
         }
-        Object proceed=null;
-        try {
-             proceed= point.proceed();
-        } catch (Throwable throwable) {
-          throw   new RuntimeException(throwable.getMessage(),throwable.getCause());
-        }
+
+           Object   proceed= point.proceed();
+
 
     return  proceed;
 
